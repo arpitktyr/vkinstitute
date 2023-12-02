@@ -1,0 +1,253 @@
+@import url("css/reset.css");
+@import url("css/style.css");
+@import url("css/responsive.css");
+
+/* including elements */
+@import url("css/shortcodes.css");
+@import url("css/prettyPhoto.css");
+
+.topbar {
+    background-color: #002b46;
+    padding: 12px 0;
+    color: #fff;
+}
+
+.topbar p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.social .fa:hover,
+.topbar .fa {
+    color: #eb7f1c;
+}
+
+.topbar span {
+    margin-left: 15px;
+}
+
+.social {
+    float: right;
+}
+
+.social .fa {
+    font-size: 18px;
+    color: #fff;
+    margin: 0 10px;
+}
+
+section.courses,
+section.enroll {
+    background: #f8f8f8;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+section.enroll form {
+    background: #eb7f1c;
+    padding: 30px 50px;
+    border-radius: 5px;
+}
+
+section.enroll input,
+section.enroll select {
+    width: 100%;
+    margin: 5px 0;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+section.enroll form input[type='submit'] {
+    background: #002b46;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+}
+
+.batch h4 {
+    background: #171616;
+    padding: 10px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.heading {
+    padding-bottom: 40px;
+}
+
+.heading h2 span {
+    color: #eb7f1c;
+    font-weight: 600;
+}
+
+.heading h2 {
+    font-weight: 600;
+}
+
+.heading h2:after,
+.heading h2:before {
+    position: absolute;
+    margin: 0 auto;
+    width: 80px;
+    content: "";
+    border-radius: 3px;
+}
+
+.heading h2:before {
+    margin-top: 42px;
+    left: 0;
+    right: 20px;
+    height: 2px;
+    background-color: #eb7f1c;
+}
+
+.heading h2:after {
+    margin-top: 47px;
+    left: 20px;
+    right: 0;
+    height: 0;
+    border-bottom: 2px solid #002b46;
+}
+
+.enroll-img {
+    margin-top: 64px;
+}
+
+section#ranker {
+    background: #002b46 url(images/backimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    background-attachment: fixed;
+}
+
+section#ranker h3,
+section#ranker h2 {
+    color: #eb7f1c;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+section#ranker h3 {
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+section.scollar h5 {
+    background: #1c5071;
+    padding: 20px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 16px 0;
+    clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
+}
+
+.request-call input {
+    width: 100%;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 2px #e1e1e1, inset 0 0 1px 1px #eee;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 17px;
+}
+
+section.courses h4 {
+    font-size: 20px;
+    margin: 12px 0;
+    text-align: center;
+}
+
+section.courses .one_fourth {
+    background: white;
+    padding: 4px 10px;
+    box-shadow: 0px 0px 4px #0000002b;
+    margin-right: 1.2%;
+}
+
+.btn {
+    background: #eb7f1c;
+    padding: 5px 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background: #7dadcc;
+
+    text-decoration: none;
+}
+
+.theme-btn {
+    background: #002b46 !important;
+}
+
+.theme-btn:hover {
+    background: #eb7f1c !important;
+}
+
+.facultytop-container {
+    margin: 0 auto;
+    height: 100%;
+    width: 960px;
+    display: block;
+}
+
+.faculty-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 18px
+}
+
+.faculty-card {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    width: calc(33.33% - 32px);
+
+}
+
+.faculty-photo {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.testimonialtop-container {
+    margin: 0 auto;
+    height: 100%;
+    width: 960px;
+    display: block;
+}
+
+.testimonial-container {
+    
+    margin: auto;
+    padding: 50px 10px;
+    position:relative;
+}
+
+.quote {
+     font-weight:600;
+      font-size:25px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.person {
+    font-weight: bold;
+}
+
+.btnn {
+    background-color: #0a259d;
+    color: white;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 21px;
+   
+}
+
